@@ -33,7 +33,7 @@ jobs:
       - name: Build static site
         env:
           GITHUB_PAGES: "true"
-          NEXT_PUBLIC_TELEGRAM_BOT_USERNAME: hvostokratya_bot
+          NEXT_PUBLIC_TELEGRAM_BOT_USERNAME: hvostibot
         run: pnpm build:pages
       - uses: actions/upload-pages-artifact@v3
         with:

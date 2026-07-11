@@ -16,7 +16,7 @@
 
 ```bash
 pnpm install
-NEXT_PUBLIC_TELEGRAM_BOT_USERNAME=hvostokratya_bot pnpm build:pages
+NEXT_PUBLIC_TELEGRAM_BOT_USERNAME=hvostibot pnpm build:pages
 ```
 
 Результат появится в каталоге `out/`.
