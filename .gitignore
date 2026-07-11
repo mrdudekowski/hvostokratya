@@ -1,0 +1,76 @@
+# dependencies and build output
+/node_modules
+/.pnpm-store
+/.corepack
+/.npm-cache
+/.next
+/out
+.pages-build-stash
+
+# tests and local tooling
+/coverage
+/playwright-report
+/test-results
+/.playwright
+/tests
+
+# secrets and environment
+.env
+.env.*
+!.env.example
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Local backend and development infrastructure
+/compose.yaml
+/migrations/
+/scripts/migrate.mjs
+/docs/
+/plans/
+/prompts/
+/AGENTS.md
+/PLANS.md
+/manifest.json
+/playwright.config.ts
+/vitest.config.ts
+/eslint.config.mjs
+/.github/workflows/ci.yml
+
+# Server-only routes and features (not used on GitHub Pages)
+/src/app/api/
+/src/app/create/
+/src/app/feed/
+/src/app/onboarding/
+/src/app/posts/
+/src/app/profile/
+
+/src/features/files/
+/src/features/onboarding/
+/src/features/posts/
+/src/features/social/
+/src/features/pets/
+/src/features/users/
+/src/features/auth/application/
+/src/features/auth/domain/
+/src/features/auth/infrastructure/
+/src/features/auth/presentation/auth-http.ts
+
+/src/platform/database/
+/src/platform/redis/
+/src/platform/storage/
+/src/platform/analytics/
+
+/src/shared/api/
+/src/shared/auth/
+/src/shared/testing/
+
+# Platform test files
+**/*.test.ts
+**/*.test.tsx

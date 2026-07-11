@@ -1,0 +1,11 @@
+allowBuilds:
+  sharp: true
+  unrs-resolver: true
+confirmModulesPurge: false
+storeDir: .pnpm-store
+verifyDepsBeforeRun: false
+minimumReleaseAgeExclude:
+  - '@aws-sdk/client-s3@3.1085.0'
+  - '@eslint/eslintrc@3.3.6'
+  - '@eslint/js@9.39.5'
+  - eslint@9.39.5
